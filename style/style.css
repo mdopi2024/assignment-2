@@ -12,7 +12,7 @@ body{
     margin: 100px auto;
     border: 1px solid white;
 }
-.all-p{
+.all-p,.all-t{
     color: rgba(255, 255, 255, 0.5);
     line-height: 1.4rem;
 }
@@ -274,6 +274,7 @@ form{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 1rem;
+    
  
 }
 input,select{
@@ -293,18 +294,49 @@ input,select{
 }
 /* bmi calculator section end */
 
-/* meet our team section start */
-.meet-text{
-    text-align: center;
-    line-height: 1.3rem;
+/* footer section start */
+
+.footer-fitness{
+    line-height: 1rem;
 }
-.name{
+.footer-heading{
+    font-size: 2rem;
     color: white;
+    font-weight: bold;
 }
-.traner{
-    color:white;
+.footer-p{
+    font-size: 1.4rem;
+    font-weight: 400;
+    color:rgba(255, 255, 255, 0.5);
+    
 }
-/* meet our team section end */
+.get-stated{
+    line-height: 1rem;
+}
+.footer-first-part{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-end{
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+.hr-part{
+    margin:3rem auto ;
+    width: 87%;
+    text-align: center;
+}
+hr{
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+.footer{
+    background: rgba(255, 255, 255, 0.1);
+}
+
+/* footer section end*/
+
+
+
 
 
 
@@ -409,7 +441,13 @@ input,select{
     margin-top: 50px;
     justify-content: center;
 }
-
+.footer-first-part{
+    flex-direction: column;
+   
+}
+.footer{
+    margin-top: 50px;
+}
 
 }
 
