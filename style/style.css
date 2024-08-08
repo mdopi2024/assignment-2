@@ -94,19 +94,20 @@ li>a{
 }
 .text-aria{
     width: 40%;
-    /* border: 1px solid white; */
     margin-top: 50px;
 }
 
    
 .img{
     width: 40%;
-    /* border: 1px solid white; */
 }
 .text-aria h1{
     font-size: 2.9rem;
     font-weight: 900;
     color: rgb(255, 255, 255);
+}
+.shape{
+    font-weight: 400;
 }
 .text-aria >.btn{
     width: 224px;
